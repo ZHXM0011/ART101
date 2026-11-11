@@ -9,3 +9,7 @@ function askNumber(whatNumber) {
         $("#output").html("Noooooope");
     }
 }
+
+$("#good-button").click(function () {
+    askNumber(5);
+});
